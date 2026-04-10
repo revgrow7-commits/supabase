@@ -12,7 +12,6 @@ SUPABASE_SERVICE_KEY=sb_secret_uMmCrswTXuAAI0buga8NQQ_vFRSMRWb
 USE_SUPABASE=true
 
 # === AUTENTICAÇÃO ===
-JWT_SECRET=your-secret-key-change-in-production-123456789
 FRONTEND_URL=https://instal-visual.com.br
 
 # === API HOLDPRINT ===
