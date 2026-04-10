@@ -1,0 +1,40 @@
+# ============================================================
+# VARIÁVEIS DE AMBIENTE - BACKEND VERCEL
+# ============================================================
+# Copie cada variável no painel do Vercel:
+# Settings → Environment Variables → Add New
+# ============================================================
+
+# === SUPABASE (Banco de Dados) ===
+SUPABASE_URL=https://otyrrvkixegiqsthmaaj.supabase.co
+SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im90eXJydmtpeGVnaXFzdGhtYWFqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ0NDU2NzMsImV4cCI6MjA5MDAyMTY3M30.kLdWIRB-LXLBmBu-tTSHNDBlKclDHw5rIyTmWCsB3rs
+SUPABASE_SERVICE_KEY=sb_secret_uMmCrswTXuAAI0buga8NQQ_vFRSMRWb
+USE_SUPABASE=true
+
+# === AUTENTICAÇÃO ===
+JWT_SECRET=your-secret-key-change-in-production-123456789
+FRONTEND_URL=https://instal-visual.com.br
+
+# === API HOLDPRINT ===
+HOLDPRINT_API_KEY_POA=84ae7df8-893c-4b0d-9b6e-516def1367f0
+HOLDPRINT_API_KEY_SP=4e20f4c2-6f84-49e7-9ab9-e27d6930a13a
+
+# === EMAIL (RESEND) ===
+RESEND_API_KEY=re_hh6JyAXw_6sykfRUqxqkE1FbDzja6H7V5
+SENDER_EMAIL=bruno@industriavisual.com.br
+
+# === PUSH NOTIFICATIONS (VAPID) ===
+VAPID_PUBLIC_KEY=BEB4S64ZcE5l5YAzZv4Ey3NaP3FBnprFE0vmCOGKVP4DN7pW_5IeDfzlCmcseOnttsePt6YfdKXTZxHTUSCujfY
+VAPID_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\nMIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgIHcFAmZhWS4okCYQnP5Lu5J76QO4wNXzYuXMH18bElyhRANCAARAeEuuGXBOZeWAM2b+BMtzWj9xQZ6axRNL5gjhilT+Aze6Vv+SHg385QpnLHjp7bbHj7emH3Sl02cR01Egro32\n-----END PRIVATE KEY-----
+VAPID_CLAIMS_EMAIL=bruno@industriavisual.com.br
+
+# === GOOGLE (Calendário) ===
+GOOGLE_CLIENT_ID=124296116416-onafacl8nknnq77oolvmd40vs60pjnu5.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=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
+
+# === VERCEL (Modo Serverless) ===
+VERCEL=1
+SERVERLESS=true
+
+# === CORS ===
+CORS_ORIGINS=https://instal-visual.com.br,https://www.instal-visual.com.br
